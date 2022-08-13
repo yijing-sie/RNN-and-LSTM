@@ -1,1 +1,1 @@
-# LSTM
+# RNN and LSTM
