@@ -19,7 +19,7 @@ The first part of this assignment is to implement from scratch a full-fledged **
 The second part is to replicate a portion of the **[torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html)** and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](mytorch/hw3.py)
 
 <p>
-<img src="GRU.png" width="200" />
+<img src="GRU.png" width="400" />
 </p>
 The computation flow for GRU
 
