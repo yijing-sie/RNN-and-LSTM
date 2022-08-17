@@ -16,7 +16,7 @@ The first part of this assignment is to implement from scratch a full-fledged **
 
 ### 2. Gated Recurrent Unit
 
-The second part is to replicate a portion of the **[torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html)** and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](hw3/gru_classifier.py)
+The second part is to replicate a portion of the [torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html) and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](hw3/gru_classifier.py)
 
 <p>
 <img src="GRU.png" width="400" />
