@@ -6,7 +6,7 @@ Intro to Deep Learning assignment:
 ## RNNs and GRUs and CTCs
 
 
-> [mytorch](mytorch) is my own custom deep learning library, which acts similar to other deep learning libraries like PyTorch or Tensorflow, for the three following assignments
+> [mytorch](mytorch) is my custom deep learning library, built entirely in NumPy, that functions similarly to established DL lebraries like PyTorch or TensorFlow, for the three following assignments
 
 ### 1. Recurrent neural network
 
@@ -16,7 +16,7 @@ The first part of this assignment is to implement from scratch a **multi-layer E
 
 ### 2. Gated Recurrent Unit
 
-The second part is to implement from scratch a portion of the [torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html) and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](hw3/gru_classifier.py)
+The second part is to implement from scratch a portion of the [torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html) **using numpy only** and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](hw3/gru_classifier.py)
 
 <p>
 <img src="GRU.png" width="400" />
@@ -32,7 +32,7 @@ The computation flow for GRU
 
 ### 3. Connectionist Temporal Classification Loss
 
-In the third part, the goal is to implement from scratch the [CTC Loss](https://www.cs.toronto.edu/~graves/icml_2006.pdf) in [mytorch/ctc_loss.py](mytorch/ctc_loss.py)
+In the third part, the goal is to implement from scratch the [CTC Loss](https://www.cs.toronto.edu/~graves/icml_2006.pdf) in [mytorch/ctc_loss.py](mytorch/ctc_loss.py) **using numpy only**
 
 * Given the output sequence from an RNN/GRU, [mytorch/ctc.py](mytorch/ctc.py) implements the `CTC` class for the computation of the forward, backward, and post probabilities that are later used to derive the CTC Loss
 
