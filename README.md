@@ -10,7 +10,7 @@ Intro to Deep Learning assignment:
 
 ### 1. Recurrent neural network
 
-The first part of this assignment is to implement from scratch a **Recurrent Neural Network** module with the ability to handle variable length inputs in the same batch **using numpy only**
+The first part of this assignment is to implement from scratch a **multi-layer Elman Recurrent Neural Network** module with the ability to handle variable length inputs in the same batch **using numpy only**
 
 * For this, I implemented the forward and backward pass of an RNN cell in [mytorch/rnn_cell.py](mytorch/rnn_cell.py) which is later used in [hw3/rnn_classifier.py](hw3/rnn_classifier.py) to build an **RNN classifier**
 
