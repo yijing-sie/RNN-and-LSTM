@@ -48,7 +48,7 @@ For this part, the goal is to **predict the phonemes contained in utterances** i
 
 * It is also a Kaggle competition, and all the details can be found [here](https://www.kaggle.com/competitions/11785-homework-3-part-2-slack-seq-to-seq)
 * My model achieves an **8.56107** score on phoneme state labels in the `test` set
-* It's ranked number **14** in a class of 300+ students
+* It's ranked **14th** among 300+ students in the class
 * All the work for this part can be found in [lstm_and_ctc.ipynb](lstm_and_ctc.ipynb)
 * The model is composed of 2 convolution  layers, followed by one **bi-directional lstm** with 5 hidden layers and then two fully connected layers.
 * I trained my model using [nn.CTCLoss](https://pytorch.org/docs/stable/generated/torch.nn.CTCLoss.html) and decoded the output of your model using beam search from [ctcdecode](https://github.com/parlance/ctcdecode)
