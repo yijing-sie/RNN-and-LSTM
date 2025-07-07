@@ -10,13 +10,13 @@ Intro to Deep Learning assignment:
 
 ### 1. Recurrent neural network
 
-The first part of this assignment is to implement from scratch a **multi-layer Elman Recurrent Neural Network** module with the ability to handle variable length inputs in the same batch **using numpy only**
+The first part of this assignment is to implement from scratch a **multi-layer Elman Recurrent Neural Network** module with the ability to handle variable length inputs in the same batch **using NumPy only**
 
 * For this, I implemented the forward and backward pass of an RNN cell in [mytorch/rnn_cell.py](mytorch/rnn_cell.py) which is later used in [hw3/rnn_classifier.py](hw3/rnn_classifier.py) to build an **RNN classifier**
 
 ### 2. Gated Recurrent Unit
 
-The second part is to implement from scratch a portion of the [torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html) **using numpy only** and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](hw3/gru_classifier.py)
+The second part is to implement from scratch a portion of the [torch.nn.GRUCell](https://pytorch.org/docs/stable/generated/torch.nn.GRUCell.html) **using NumPy only** and combine it with a linear layer to compose a neural net, namely `CharacterPredictor`, in [hw3/gru_classifier.py](hw3/gru_classifier.py)
 
 <p>
 <img src="GRU.png" width="400" />
@@ -32,7 +32,7 @@ The computation flow for GRU
 
 ### 3. Connectionist Temporal Classification Loss
 
-In the third part, the goal is to implement from scratch the [CTC Loss](https://www.cs.toronto.edu/~graves/icml_2006.pdf) in [mytorch/ctc_loss.py](mytorch/ctc_loss.py) **using numpy only**
+In the third part, the goal is to implement from scratch the [CTC Loss](https://www.cs.toronto.edu/~graves/icml_2006.pdf) in [mytorch/ctc_loss.py](mytorch/ctc_loss.py) **using NumPy only**
 
 * Given the output sequence from an RNN/GRU, [mytorch/ctc.py](mytorch/ctc.py) implements the `CTC` class for the computation of the forward, backward, and post probabilities that are later used to derive the CTC Loss
 
